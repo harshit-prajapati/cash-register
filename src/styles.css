@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.App {
+  text-align: center;
+  align-items: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body {
+  background-color: #eff6ff;
+}
+
+.max-width {
+  width: 30rem;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+#bill-amt,
+#cash-given {
+  width: 20rem;
+  height: 1rem;
+  padding: 1rem;
+  border: 1px solid #282c34;
+  border-radius: 1rem;
+}
+
+#nxt-btn {
+  margin-left: -15rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border: 1px solid;
+  border-radius: 0.5rem;
+}
+
+#return-change {
+  margin-left: -13rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border: 1px solid;
+  border-radius: 0.5rem;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #bfbfbf;
+  -webkit-transition: background-color 0.1s ease-out;
+  -moz-transition: background-color 0.1s ease-out;
+  -o-transition: background-color 0.1s ease-out;
+  transition: background-color 0.1s ease-out;
+  /* transform: 0.1s; */
+}
+
+.summary span {
+  font-size: smaller;
+  background-color: var(--output-color);
+  color: black;
+  padding: 0.5rem 1rem;
+  background-color: #abd0ff;
+  border: 1px solid #abd0ff;
+  border-radius: 0.5rem;
+}
+
+.output-table {
+  /* align-items: center; */
+  margin: auto;
+  width: 40%;
+  min-width: 320px;
+  table-layout: fixed;
+  margin-top: 1rem;
+}
+.output table,
+td,
+th {
+  padding: 0.2rem;
+  border-collapse: collapse;
+  text-align: center;
+  border: 1px solid var(#abd0ff);
+  color: var(#abd0ff);
+  /* background-color: white; */
+  border: 2px solid #abd0ff;
+  /* border-radius: 1rem; */
+}
+.notes {
+  background-color: white;
+}
