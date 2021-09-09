@@ -1,2 +1,2 @@
 # cash-register
-Created with CodeSandbox
+A webapp built in **ReactJS** that returns the minimum number of notes to be returned by a cashier.
